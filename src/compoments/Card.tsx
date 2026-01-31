@@ -8,7 +8,7 @@ type CardProps = {
 
 const Card: FC<CardProps> = ({ imgae, movieName, episode }) => {
   return (
-    <div className="relative cursor-pointer overflow-hidden rounded-lg transition delay-100 duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-500">
+    <div className="relative cursor-pointer overflow-hidden rounded-lg transition delay-50 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-500">
       <img
         className="w-full object-cover mask-b-from-30% mask-b-to-99%"
         src={`/images/${imgae}`}
