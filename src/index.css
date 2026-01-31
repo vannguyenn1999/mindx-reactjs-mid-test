@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #192026; */
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: #192026;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
